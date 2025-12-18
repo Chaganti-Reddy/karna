@@ -73,7 +73,7 @@ theme:
 plugins:
   - blog:
       post_readtime: true
-      # draft: true
+      draft: true
       draft_on_serve: true
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
