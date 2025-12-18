@@ -27,3 +27,5 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material  mkdocs-redirects mkdocs-minify-plugin
       - run: mkdocs gh-deploy --force
+        env:
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
